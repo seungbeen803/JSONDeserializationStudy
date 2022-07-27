@@ -8,6 +8,7 @@ data class MyJSONDataClass(
     val data1: Int,
     val data2: String,
     val list: List<Int>)
+
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
